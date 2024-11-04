@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5449B4B02CD9034400D058DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5449B4922CD9034300D058DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5449B4992CD9034300D058DF;
+			remoteInfo = SimpleQRwallet;
+		};
+		5449B4BA2CD9034400D058DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5449B4922CD9034300D058DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5449B4992CD9034300D058DF;
+			remoteInfo = SimpleQRwallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5449B49A2CD9034300D058DF /* SimpleQRwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQRwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5449B4AF2CD9034400D058DF /* SimpleQRwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQRwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5449B4B92CD9034400D058DF /* SimpleQRwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQRwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5449B49C2CD9034300D058DF /* SimpleQRwallet */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleQRwallet;
+			sourceTree = "<group>";
+		};
+		5449B4B22CD9034400D058DF /* SimpleQRwalletTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleQRwalletTests;
+			sourceTree = "<group>";
+		};
+		5449B4BC2CD9034400D058DF /* SimpleQRwalletUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleQRwalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5449B4972CD9034300D058DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5449B4AC2CD9034400D058DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5449B4B62CD9034400D058DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5449B4912CD9034300D058DF = {
+			isa = PBXGroup;
+			children = (
+				5449B49C2CD9034300D058DF /* SimpleQRwallet */,
+				5449B4B22CD9034400D058DF /* SimpleQRwalletTests */,
+				5449B4BC2CD9034400D058DF /* SimpleQRwalletUITests */,
+				5449B49B2CD9034300D058DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5449B49B2CD9034300D058DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5449B49A2CD9034300D058DF /* SimpleQRwallet.app */,
+				5449B4AF2CD9034400D058DF /* SimpleQRwalletTests.xctest */,
+				5449B4B92CD9034400D058DF /* SimpleQRwalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5449B4992CD9034300D058DF /* SimpleQRwallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5449B4C32CD9034400D058DF /* Build configuration list for PBXNativeTarget "SimpleQRwallet" */;
+			buildPhases = (
+				5449B4962CD9034300D058DF /* Sources */,
+				5449B4972CD9034300D058DF /* Frameworks */,
+				5449B4982CD9034300D058DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5449B49C2CD9034300D058DF /* SimpleQRwallet */,
+			);
+			name = SimpleQRwallet;
+			packageProductDependencies = (
+			);
+			productName = SimpleQRwallet;
+			productReference = 5449B49A2CD9034300D058DF /* SimpleQRwallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5449B4AE2CD9034400D058DF /* SimpleQRwalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5449B4C62CD9034400D058DF /* Build configuration list for PBXNativeTarget "SimpleQRwalletTests" */;
+			buildPhases = (
+				5449B4AB2CD9034400D058DF /* Sources */,
+				5449B4AC2CD9034400D058DF /* Frameworks */,
+				5449B4AD2CD9034400D058DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5449B4B12CD9034400D058DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5449B4B22CD9034400D058DF /* SimpleQRwalletTests */,
+			);
+			name = SimpleQRwalletTests;
+			packageProductDependencies = (
+			);
+			productName = SimpleQRwalletTests;
+			productReference = 5449B4AF2CD9034400D058DF /* SimpleQRwalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5449B4B82CD9034400D058DF /* SimpleQRwalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5449B4C92CD9034400D058DF /* Build configuration list for PBXNativeTarget "SimpleQRwalletUITests" */;
+			buildPhases = (
+				5449B4B52CD9034400D058DF /* Sources */,
+				5449B4B62CD9034400D058DF /* Frameworks */,
+				5449B4B72CD9034400D058DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5449B4BB2CD9034400D058DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5449B4BC2CD9034400D058DF /* SimpleQRwalletUITests */,
+			);
+			name = SimpleQRwalletUITests;
+			packageProductDependencies = (
+			);
+			productName = SimpleQRwalletUITests;
+			productReference = 5449B4B92CD9034400D058DF /* SimpleQRwalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5449B4922CD9034300D058DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5449B4992CD9034300D058DF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					5449B4AE2CD9034400D058DF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5449B4992CD9034300D058DF;
+					};
+					5449B4B82CD9034400D058DF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5449B4992CD9034300D058DF;
+					};
+				};
+			};
+			buildConfigurationList = 5449B4952CD9034300D058DF /* Build configuration list for PBXProject "SimpleQRwallet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5449B4912CD9034300D058DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5449B49B2CD9034300D058DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5449B4992CD9034300D058DF /* SimpleQRwallet */,
+				5449B4AE2CD9034400D058DF /* SimpleQRwalletTests */,
+				5449B4B82CD9034400D058DF /* SimpleQRwalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5449B4982CD9034300D058DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5449B4AD2CD9034400D058DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5449B4B72CD9034400D058DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5449B4962CD9034300D058DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5449B4AB2CD9034400D058DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5449B4B52CD9034400D058DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5449B4B12CD9034400D058DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5449B4992CD9034300D058DF /* SimpleQRwallet */;
+			targetProxy = 5449B4B02CD9034400D058DF /* PBXContainerItemProxy */;
+		};
+		5449B4BB2CD9034400D058DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5449B4992CD9034300D058DF /* SimpleQRwallet */;
+			targetProxy = 5449B4BA2CD9034400D058DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5449B4C12CD9034400D058DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5449B4C22CD9034400D058DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5449B4C42CD9034400D058DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleQRwallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ValiQ-Security.SimpleQRwallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5449B4C52CD9034400D058DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleQRwallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ValiQ-Security.SimpleQRwallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5449B4C72CD9034400D058DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ValiQ-Security.SimpleQRwalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleQRwallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleQRwallet";
+			};
+			name = Debug;
+		};
+		5449B4C82CD9034400D058DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ValiQ-Security.SimpleQRwalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleQRwallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleQRwallet";
+			};
+			name = Release;
+		};
+		5449B4CA2CD9034400D058DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ValiQ-Security.SimpleQRwalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleQRwallet;
+			};
+			name = Debug;
+		};
+		5449B4CB2CD9034400D058DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ValiQ-Security.SimpleQRwalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleQRwallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5449B4952CD9034300D058DF /* Build configuration list for PBXProject "SimpleQRwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5449B4C12CD9034400D058DF /* Debug */,
+				5449B4C22CD9034400D058DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5449B4C32CD9034400D058DF /* Build configuration list for PBXNativeTarget "SimpleQRwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5449B4C42CD9034400D058DF /* Debug */,
+				5449B4C52CD9034400D058DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5449B4C62CD9034400D058DF /* Build configuration list for PBXNativeTarget "SimpleQRwalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5449B4C72CD9034400D058DF /* Debug */,
+				5449B4C82CD9034400D058DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5449B4C92CD9034400D058DF /* Build configuration list for PBXNativeTarget "SimpleQRwalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5449B4CA2CD9034400D058DF /* Debug */,
+				5449B4CB2CD9034400D058DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5449B4922CD9034300D058DF /* Project object */;
+}
