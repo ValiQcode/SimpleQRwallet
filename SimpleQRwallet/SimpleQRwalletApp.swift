@@ -55,6 +55,7 @@ import CoreImage.CIFilterBuiltins
 
 struct QRCardDetailView: View {
     let card: QRCard
+    @Environment(\.managedObjectContext) private var viewContext
     @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
@@ -63,7 +64,6 @@ struct QRCardDetailView: View {
                 .font(.largeTitle)
                 .padding()
 
-            // Generate and display the barcode or QR code image
             if let codeImage = generateCodeImage(for: card) {
                 Image(uiImage: codeImage)
                     .interpolation(.none)
@@ -75,6 +75,16 @@ struct QRCardDetailView: View {
                 Text("Invalid data or type")
                     .foregroundColor(.red)
             }
+
+            // Delete button
+            Button(action: deleteCard) {
+                Text("Delete Card")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.red)
+                    .cornerRadius(8)
+            }
+            .padding()
 
             Button("Done") {
                 presentationMode.wrappedValue.dismiss()
@@ -89,7 +99,7 @@ struct QRCardDetailView: View {
         case "QRCode":
             return generateQRCode(from: card.data ?? "")
         case "EAN13":
-            return drawEAN13Barcode(from: card.data ?? "") // Uses function from EAN13BarcodeGenerator.swift
+            return drawEAN13Barcode(from: card.data ?? "")
         default:
             return nil
         }
@@ -107,5 +117,15 @@ struct QRCardDetailView: View {
             return UIImage(cgImage: cgImage)
         }
         return nil
+    }
+
+    private func deleteCard() {
+        viewContext.delete(card)
+        do {
+            try viewContext.save()
+            presentationMode.wrappedValue.dismiss() // Close the view after deletion
+        } catch {
+            print("Error deleting card: \(error.localizedDescription)")
+        }
     }
 }
