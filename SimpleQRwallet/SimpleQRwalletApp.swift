@@ -9,7 +9,7 @@ struct ContentView: View {
     private var qrCards: FetchedResults<QRCard>
 
     @State private var showAddCardView = false
-    @State private var selectedCard: QRCard? = nil // State variable for selected card
+    @State private var selectedCard: QRCard? = nil
 
     var body: some View {
         NavigationView {
@@ -21,7 +21,7 @@ struct ContentView: View {
                         Text(card.label ?? "Unknown Label")
                     }
                 }
-                .onDelete(perform: deleteCards)
+                .onDelete(perform: deleteCards) // Enable swipe-to-delete
             }
             .navigationBarTitle("QR Wallet")
             .toolbar {
@@ -31,19 +31,21 @@ struct ContentView: View {
                     }
                 }
             }
-            .sheet(item: $selectedCard) { card in
-                QRCardDetailView(card: card) // Show details in a pop-up sheet
-            }
             .sheet(isPresented: $showAddCardView) {
                 AddCardView()
+            }
+            .sheet(item: $selectedCard) { card in
+                QRCardDetailView(card: card) // Show details in a pop-up sheet
             }
         }
     }
 
-    private func deleteCards(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { qrCards[$0] }.forEach(viewContext.delete)
-            try? viewContext.save()
+    private func deleteCards(at offsets: IndexSet) {
+        offsets.map { qrCards[$0] }.forEach(viewContext.delete)
+        do {
+            try viewContext.save() // Save context to persist deletion
+        } catch {
+            print("Error deleting card: \(error.localizedDescription)")
         }
     }
 }
