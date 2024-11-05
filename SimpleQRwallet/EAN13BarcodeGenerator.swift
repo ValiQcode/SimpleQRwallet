@@ -61,7 +61,7 @@ func drawEAN13Barcode(from code: String) -> UIImage? {
     barcodePattern += "101"
     
     // Drawing parameters
-    let width = barcodePattern.count
+    let width = barcodePattern.count * 4
     let height = 100
     let scaleFactor: CGFloat = 3.0
     
@@ -76,7 +76,7 @@ func drawEAN13Barcode(from code: String) -> UIImage? {
     context.setFillColor(UIColor.black.cgColor)
     for (index, char) in barcodePattern.enumerated() {
         if char == "1" {
-            context.fill(CGRect(x: CGFloat(index), y: 0, width: 1, height: CGFloat(height)))
+            context.fill(CGRect(x: CGFloat(index) * 4, y: 0, width: 3, height: CGFloat(height)))
         }
     }
     
