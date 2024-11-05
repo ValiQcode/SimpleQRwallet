@@ -6,10 +6,10 @@ struct AddCardView: View {
     @Environment(\.presentationMode) private var presentationMode
     @State private var label: String = ""
     @State private var data: String = ""
-    @State private var selectedType: String = "QRCode"
-    
-    // Updated types array to include "UPC"
-    let types = ["QRCode", "Barcode", "UPC", "EAN13"]
+    @State private var selectedType: String = "QRCode"  // Default selection
+
+    // Updated types array to include "QRCode," "DataMatrix," and "EAN13"
+    let types = ["QRCode", "DataMatrix", "EAN13"]
 
     var body: some View {
         NavigationView {
@@ -19,7 +19,6 @@ struct AddCardView: View {
                 }
                 Section(header: Text("Data")) {
                     TextField("Enter data", text: $data)
-                        .keyboardType(.numberPad) // Ensures numeric input for UPC if needed
                 }
                 Section(header: Text("Type")) {
                     Picker("Type", selection: $selectedType) {
@@ -46,6 +45,10 @@ struct AddCardView: View {
         newCard.label = label
         newCard.data = data
         newCard.type = selectedType
-        try? viewContext.save()
+        do {
+            try viewContext.save()
+        } catch {
+            print("Error saving new card: \(error.localizedDescription)")
+        }
     }
 }

@@ -100,6 +100,8 @@ struct QRCardDetailView: View {
             return generateQRCode(from: card.data ?? "")
         case "EAN13":
             return drawEAN13Barcode(from: card.data ?? "")
+        case "DataMatrix":
+            return generateDataMatrix(from: card.data ?? "") // Call Data Matrix generator
         default:
             return nil
         }
