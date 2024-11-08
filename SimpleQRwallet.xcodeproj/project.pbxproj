@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		54F73CAA2CDE25D900054BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F73CA22CDE25D900054BC7 /* Assets.xcassets */; };
+		54F73CAB2CDE25D900054BC7 /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F73CA02CDE25D900054BC7 /* AddCardView.swift */; };
+		54F73CAC2CDE25D900054BC7 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F73CA12CDE25D900054BC7 /* App.swift */; };
+		54F73CAD2CDE25D900054BC7 /* DataMatrixGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F73CA32CDE25D900054BC7 /* DataMatrixGenerator.swift */; };
+		54F73CAE2CDE25D900054BC7 /* EAN13BarcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F73CA42CDE25D900054BC7 /* EAN13BarcodeGenerator.swift */; };
+		54F73CAF2CDE25D900054BC7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F73CA52CDE25D900054BC7 /* Persistence.swift */; };
+		54F73CB02CDE25D900054BC7 /* SimpleQRwallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54F73CA62CDE25D900054BC7 /* SimpleQRwallet.xcdatamodeld */; };
+		54F73CB12CDE25D900054BC7 /* SimpleQRwalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F73CA72CDE25D900054BC7 /* SimpleQRwalletApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5449B4B02CD9034400D058DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5449B49A2CD9034300D058DF /* SimpleQRwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQRwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5449B4AF2CD9034400D058DF /* SimpleQRwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQRwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5449B4B92CD9034400D058DF /* SimpleQRwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQRwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5449B4AF2CD9034400D058DF /* SimpleQRwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SimpleQRwalletTests.xctest; path = "/Users/bquast/SimpleQRwallet/build/Debug-iphoneos/SimpleQRwallet.app/PlugIns/SimpleQRwalletTests.xctest"; sourceTree = "<absolute>"; };
+		5449B4B92CD9034400D058DF /* SimpleQRwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SimpleQRwalletUITests.xctest; path = "/Users/bquast/SimpleQRwallet/build/Debug-iphoneos/SimpleQRwalletUITests-Runner.app/PlugIns/SimpleQRwalletUITests.xctest"; sourceTree = "<absolute>"; };
+		54F73CA02CDE25D900054BC7 /* AddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
+		54F73CA12CDE25D900054BC7 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		54F73CA22CDE25D900054BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F73CA32CDE25D900054BC7 /* DataMatrixGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMatrixGenerator.swift; sourceTree = "<group>"; };
+		54F73CA42CDE25D900054BC7 /* EAN13BarcodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAN13BarcodeGenerator.swift; sourceTree = "<group>"; };
+		54F73CA52CDE25D900054BC7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		54F73CA72CDE25D900054BC7 /* SimpleQRwalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQRwalletApp.swift; sourceTree = "<group>"; };
+		54F73CA82CDE25D900054BC7 /* SimpleQRwallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleQRwallet.xcdatamodel; sourceTree = "<group>"; };
+		54F73CBA2CDE285100054BC7 /* SimpleQRwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQRwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5449B49C2CD9034300D058DF /* SimpleQRwallet */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleQRwallet;
-			sourceTree = "<group>";
-		};
-		5449B4B22CD9034400D058DF /* SimpleQRwalletTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleQRwalletTests;
-			sourceTree = "<group>";
-		};
-		5449B4BC2CD9034400D058DF /* SimpleQRwalletUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleQRwalletUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5449B4972CD9034300D058DF /* Frameworks */ = {
@@ -75,21 +76,16 @@
 		5449B4912CD9034300D058DF = {
 			isa = PBXGroup;
 			children = (
-				5449B49C2CD9034300D058DF /* SimpleQRwallet */,
-				5449B4B22CD9034400D058DF /* SimpleQRwalletTests */,
-				5449B4BC2CD9034400D058DF /* SimpleQRwalletUITests */,
-				5449B49B2CD9034300D058DF /* Products */,
+				54F73CA02CDE25D900054BC7 /* AddCardView.swift */,
+				54F73CA12CDE25D900054BC7 /* App.swift */,
+				54F73CA22CDE25D900054BC7 /* Assets.xcassets */,
+				54F73CA32CDE25D900054BC7 /* DataMatrixGenerator.swift */,
+				54F73CA42CDE25D900054BC7 /* EAN13BarcodeGenerator.swift */,
+				54F73CA52CDE25D900054BC7 /* Persistence.swift */,
+				54F73CA62CDE25D900054BC7 /* SimpleQRwallet.xcdatamodeld */,
+				54F73CA72CDE25D900054BC7 /* SimpleQRwalletApp.swift */,
+				54F73CBA2CDE285100054BC7 /* SimpleQRwallet.app */,
 			);
-			sourceTree = "<group>";
-		};
-		5449B49B2CD9034300D058DF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5449B49A2CD9034300D058DF /* SimpleQRwallet.app */,
-				5449B4AF2CD9034400D058DF /* SimpleQRwalletTests.xctest */,
-				5449B4B92CD9034400D058DF /* SimpleQRwalletUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,14 +103,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				5449B49C2CD9034300D058DF /* SimpleQRwallet */,
-			);
 			name = SimpleQRwallet;
 			packageProductDependencies = (
 			);
 			productName = SimpleQRwallet;
-			productReference = 5449B49A2CD9034300D058DF /* SimpleQRwallet.app */;
+			productReference = 54F73CBA2CDE285100054BC7 /* SimpleQRwallet.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5449B4AE2CD9034400D058DF /* SimpleQRwalletTests */ = {
@@ -129,9 +122,6 @@
 			);
 			dependencies = (
 				5449B4B12CD9034400D058DF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5449B4B22CD9034400D058DF /* SimpleQRwalletTests */,
 			);
 			name = SimpleQRwalletTests;
 			packageProductDependencies = (
@@ -152,9 +142,6 @@
 			);
 			dependencies = (
 				5449B4BB2CD9034400D058DF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5449B4BC2CD9034400D058DF /* SimpleQRwalletUITests */,
 			);
 			name = SimpleQRwalletUITests;
 			packageProductDependencies = (
@@ -198,7 +185,7 @@
 			packageReferences = (
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5449B49B2CD9034300D058DF /* Products */;
+			productRefGroup = 5449B4912CD9034300D058DF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -214,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F73CAA2CDE25D900054BC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F73CAB2CDE25D900054BC7 /* AddCardView.swift in Sources */,
+				54F73CAC2CDE25D900054BC7 /* App.swift in Sources */,
+				54F73CAD2CDE25D900054BC7 /* DataMatrixGenerator.swift in Sources */,
+				54F73CAE2CDE25D900054BC7 /* EAN13BarcodeGenerator.swift in Sources */,
+				54F73CAF2CDE25D900054BC7 /* Persistence.swift in Sources */,
+				54F73CB02CDE25D900054BC7 /* SimpleQRwallet.xcdatamodeld in Sources */,
+				54F73CB12CDE25D900054BC7 /* SimpleQRwalletApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleQRwallet/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = CAM5BR635A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -426,7 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleQRwallet/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = CAM5BR635A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -556,6 +551,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54F73CA62CDE25D900054BC7 /* SimpleQRwallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54F73CA82CDE25D900054BC7 /* SimpleQRwallet.xcdatamodel */,
+			);
+			currentVersion = 54F73CA82CDE25D900054BC7 /* SimpleQRwallet.xcdatamodel */;
+			path = SimpleQRwallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5449B4922CD9034300D058DF /* Project object */;
 }
